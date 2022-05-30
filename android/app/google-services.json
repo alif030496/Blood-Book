@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "131609830861",
+    "project_id": "blood-book-56737",
+    "storage_bucket": "blood-book-56737.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131609830861:android:eafe845a9c95c9e2039084",
+        "android_client_info": {
+          "package_name": "com.zero.blood_book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131609830861-pjpu6j5gdkfclm1087pdfm2cl528vrrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zero.blood_book",
+            "certificate_hash": "a76451a0b0341eb5f5f41899f165f0aecc2b99d7"
+          }
+        },
+        {
+          "client_id": "131609830861-0mhmtrlp2ce0gtovvscgehheghev4po7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhDz9tCdcDVpDfyOCKno4NItJuGTzivRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131609830861-0mhmtrlp2ce0gtovvscgehheghev4po7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
