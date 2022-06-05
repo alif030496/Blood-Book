@@ -190,232 +190,232 @@ class _HomeState extends State<Home> {
                               ),
                             ),
 
-                            GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    CupertinoPageRoute(
-                                        builder: ((context) => addDonarinfo())));
-                              },
-                              child: Container(
-                                height: 200.h,
-                                width: 0.4.sw,
-                                decoration: BoxDecoration(
-                                  color: Colors.blueGrey,
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(22.0.r)),
-                                ),
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-
-                                    Container(
-                                      height: 145.h,
-                                      //width: 0.3.sw,
-                                      child: Image.asset(
-                                        "images/add_donar.png",
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10.h),
-                                    Center(
-                                        child: Text(
-                                      "Add Donar",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w500,
-                                          color: Colors.white),
-                                    )),
-                                  ],
-                                ),
-                              ),
-                            ),
+//                            GestureDetector(
+//                              onTap: () {
+//                                Navigator.push(
+//                                    context,
+//                                    CupertinoPageRoute(
+//                                        builder: ((context) => addDonarinfo())));
+//                              },
+//                              child: Container(
+//                                height: 200.h,
+//                                width: 0.4.sw,
+//                                decoration: BoxDecoration(
+//                                  color: Colors.blueGrey,
+//                                  borderRadius:
+//                                      BorderRadius.all(Radius.circular(22.0.r)),
+//                                ),
+//                                child: Column(
+//                                  mainAxisAlignment: MainAxisAlignment.center,
+//                                  crossAxisAlignment: CrossAxisAlignment.center,
+//                                  children: [
+//
+//                                    Container(
+//                                      height: 145.h,
+//                                      //width: 0.3.sw,
+//                                      child: Image.asset(
+//                                        "images/add_donar.png",
+//                                        fit: BoxFit.cover,
+//                                      ),
+//                                    ),
+//                                    SizedBox(height: 10.h),
+//                                    Center(
+//                                        child: Text(
+//                                      "Add Donar",
+//                                      style: TextStyle(
+//                                          fontWeight: FontWeight.w500,
+//                                          color: Colors.white),
+//                                    )),
+//                                  ],
+//                                ),
+//                              ),
+//                            ),
 
 
                           ],
                         ),
                 SizedBox(height: 20.h,),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-
-                            GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    CupertinoPageRoute(
-                                        builder: ((context) => addDonarinfo())));
-                              },
-                              child: Container(
-                                height: 200.h,
-                                width: 0.4.sw,
-                                decoration: BoxDecoration(
-                                  color: Colors.blueGrey,
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(22.0.r)),
-                                ),
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-
-                                    Container(
-                                      height: 145.h,
-                                      //width: 0.3.sw,
-                                      child: Image.asset(
-                                        "images/add_donar.png",
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10.h),
-                                    Center(
-                                        child: Text(
-                                      "Add Donar",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w500,
-                                          color: Colors.white),
-                                    )),
-                                  ],
-                                ),
-                              ),
-                            ),
-
-                            GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    CupertinoPageRoute(
-                                        builder: ((context) => addDonarinfo())));
-                              },
-                              child: Container(
-                                height: 200.h,
-                                width: 0.4.sw,
-                                decoration: BoxDecoration(
-                                  color: Colors.blueGrey,
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(22.0.r)),
-                                ),
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-
-                                    Container(
-                                      height: 145.h,
-                                      //width: 0.3.sw,
-                                      child: Image.asset(
-                                        "images/add_donar.png",
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10.h),
-                                    Center(
-                                        child: Text(
-                                      "Add Donar",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w500,
-                                          color: Colors.white),
-                                    )),
-                                  ],
-                                ),
-                              ),
-                            ),
-
-
-                          ],
-                        ),
-                        SizedBox(height: 20.h,),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-
-                            GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    CupertinoPageRoute(
-                                        builder: ((context) => addDonarinfo())));
-                              },
-                              child: Container(
-                                height: 200.h,
-                                width: 0.4.sw,
-                                decoration: BoxDecoration(
-                                  color: Colors.blueGrey,
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(22.0.r)),
-                                ),
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-
-                                    Container(
-                                      height: 145.h,
-                                      //width: 0.3.sw,
-                                      child: Image.asset(
-                                        "images/add_donar.png",
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10.h),
-                                    Center(
-                                        child: Text(
-                                      "Add Donar",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w500,
-                                          color: Colors.white),
-                                    )),
-                                  ],
-                                ),
-                              ),
-                            ),
-
-                            GestureDetector(
-                              onTap: () {
-                                Navigator.push(
-                                    context,
-                                    CupertinoPageRoute(
-                                        builder: ((context) => addDonarinfo())));
-                              },
-                              child: Container(
-                                height: 200.h,
-                                width: 0.4.sw,
-                                decoration: BoxDecoration(
-                                  color: Colors.blueGrey,
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(22.0.r)),
-                                ),
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-
-                                    Container(
-                                      height: 145.h,
-                                      //width: 0.3.sw,
-                                      child: Image.asset(
-                                        "images/add_donar.png",
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                    SizedBox(height: 10.h),
-                                    Center(
-                                        child: Text(
-                                      "Add Donar",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w500,
-                                          color: Colors.white),
-                                    )),
-                                  ],
-                                ),
-                              ),
-                            ),
-
-
-                          ],
-                        ),
+//                        Row(
+//                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//                          crossAxisAlignment: CrossAxisAlignment.start,
+//                          children: [
+//
+//                            GestureDetector(
+//                              onTap: () {
+//                                Navigator.push(
+//                                    context,
+//                                    CupertinoPageRoute(
+//                                        builder: ((context) => addDonarinfo())));
+//                              },
+//                              child: Container(
+//                                height: 200.h,
+//                                width: 0.4.sw,
+//                                decoration: BoxDecoration(
+//                                  color: Colors.blueGrey,
+//                                  borderRadius:
+//                                      BorderRadius.all(Radius.circular(22.0.r)),
+//                                ),
+//                                child: Column(
+//                                  mainAxisAlignment: MainAxisAlignment.center,
+//                                  crossAxisAlignment: CrossAxisAlignment.center,
+//                                  children: [
+//
+//                                    Container(
+//                                      height: 145.h,
+//                                      //width: 0.3.sw,
+//                                      child: Image.asset(
+//                                        "images/add_donar.png",
+//                                        fit: BoxFit.cover,
+//                                      ),
+//                                    ),
+//                                    SizedBox(height: 10.h),
+//                                    Center(
+//                                        child: Text(
+//                                      "Add Donar",
+//                                      style: TextStyle(
+//                                          fontWeight: FontWeight.w500,
+//                                          color: Colors.white),
+//                                    )),
+//                                  ],
+//                                ),
+//                              ),
+//                            ),
+//
+//                            GestureDetector(
+//                              onTap: () {
+//                                Navigator.push(
+//                                    context,
+//                                    CupertinoPageRoute(
+//                                        builder: ((context) => addDonarinfo())));
+//                              },
+//                              child: Container(
+//                                height: 200.h,
+//                                width: 0.4.sw,
+//                                decoration: BoxDecoration(
+//                                  color: Colors.blueGrey,
+//                                  borderRadius:
+//                                      BorderRadius.all(Radius.circular(22.0.r)),
+//                                ),
+//                                child: Column(
+//                                  mainAxisAlignment: MainAxisAlignment.center,
+//                                  crossAxisAlignment: CrossAxisAlignment.center,
+//                                  children: [
+//
+//                                    Container(
+//                                      height: 145.h,
+//                                      //width: 0.3.sw,
+//                                      child: Image.asset(
+//                                        "images/add_donar.png",
+//                                        fit: BoxFit.cover,
+//                                      ),
+//                                    ),
+//                                    SizedBox(height: 10.h),
+//                                    Center(
+//                                        child: Text(
+//                                      "Add Donar",
+//                                      style: TextStyle(
+//                                          fontWeight: FontWeight.w500,
+//                                          color: Colors.white),
+//                                    )),
+//                                  ],
+//                                ),
+//                              ),
+//                            ),
+//
+//
+//                          ],
+//                        ),
+//                        SizedBox(height: 20.h,),
+//                        Row(
+//                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//                          crossAxisAlignment: CrossAxisAlignment.start,
+//                          children: [
+//
+//                            GestureDetector(
+//                              onTap: () {
+//                                Navigator.push(
+//                                    context,
+//                                    CupertinoPageRoute(
+//                                        builder: ((context) => addDonarinfo())));
+//                              },
+//                              child: Container(
+//                                height: 200.h,
+//                                width: 0.4.sw,
+//                                decoration: BoxDecoration(
+//                                  color: Colors.blueGrey,
+//                                  borderRadius:
+//                                      BorderRadius.all(Radius.circular(22.0.r)),
+//                                ),
+//                                child: Column(
+//                                  mainAxisAlignment: MainAxisAlignment.center,
+//                                  crossAxisAlignment: CrossAxisAlignment.center,
+//                                  children: [
+//
+//                                    Container(
+//                                      height: 145.h,
+//                                      //width: 0.3.sw,
+//                                      child: Image.asset(
+//                                        "images/add_donar.png",
+//                                        fit: BoxFit.cover,
+//                                      ),
+//                                    ),
+//                                    SizedBox(height: 10.h),
+//                                    Center(
+//                                        child: Text(
+//                                      "Add Donar",
+//                                      style: TextStyle(
+//                                          fontWeight: FontWeight.w500,
+//                                          color: Colors.white),
+//                                    )),
+//                                  ],
+//                                ),
+//                              ),
+//                            ),
+//
+//                            GestureDetector(
+//                              onTap: () {
+//                                Navigator.push(
+//                                    context,
+//                                    CupertinoPageRoute(
+//                                        builder: ((context) => addDonarinfo())));
+//                              },
+//                              child: Container(
+//                                height: 200.h,
+//                                width: 0.4.sw,
+//                                decoration: BoxDecoration(
+//                                  color: Colors.blueGrey,
+//                                  borderRadius:
+//                                      BorderRadius.all(Radius.circular(22.0.r)),
+//                                ),
+//                                child: Column(
+//                                  mainAxisAlignment: MainAxisAlignment.center,
+//                                  crossAxisAlignment: CrossAxisAlignment.center,
+//                                  children: [
+//
+//                                    Container(
+//                                      height: 145.h,
+//                                      //width: 0.3.sw,
+//                                      child: Image.asset(
+//                                        "images/add_donar.png",
+//                                        fit: BoxFit.cover,
+//                                      ),
+//                                    ),
+//                                    SizedBox(height: 10.h),
+//                                    Center(
+//                                        child: Text(
+//                                      "Add Donar",
+//                                      style: TextStyle(
+//                                          fontWeight: FontWeight.w500,
+//                                          color: Colors.white),
+//                                    )),
+//                                  ],
+//                                ),
+//                              ),
+//                            ),
+//
+//
+//                          ],
+//                        ),
                        // SizedBox(height: 10.h,),
                       ],
                     ),
